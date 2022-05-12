@@ -1,0 +1,36 @@
+NHunspell
+
+
+# Setting up the DevelopmentEnvironment
+
+Visual Studio Code is preconfigured as a Development Environment for NHunspell.
+
+Install on the developer machine:
+* Visual Studio Code
+* Docker / Docker Desktop (Windows)
+* Git
+
+The development environment is based on Docker, so the VSCode Remote-Containers extension must be installed.
+
+
+
+# Building NHunspell
+
+* Clone NHunspell (Git)
+* Open NHunspell Folder in Visual Studio Code
+* Reopen the folder in container (Remote-Containers Extension)
+
+cd src
+./BuildNativeHunspellWindows.sh
+
+
+
+
+## References
+
+* Install .NET Core on Linux/Ubuntu +
+https://learn.microsoft.com/en-us/dotnet/core/install/linux-ubuntu
+
+* VSCode Dev-Containers Script Library +
+https://github.com/microsoft/vscode-dev-containers/tree/main/script-library
+

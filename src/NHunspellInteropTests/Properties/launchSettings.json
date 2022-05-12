@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "NHunspellInteropTests": {
+      "commandName": "Project",
+      "nativeDebugging": true
+    }
+  }
+}

@@ -1,0 +1,12 @@
+
+{
+    "editor.wordWrap": "off",
+    "launch": {
+        "configurations": [
+        ],
+        "compounds": []
+    },
+    "files.associations": {
+        "istream": "cpp"
+    }
+}
